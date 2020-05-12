@@ -11,7 +11,7 @@ def substrings(string, dictionary)
       end
     end  
     end
-  puts hits
+  puts hits.sort.to_h
 end
 
 substrings("Howdy partner, sit down! How's it going?", dictionary)
